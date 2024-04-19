@@ -36,7 +36,7 @@ const Application = () => {
 
     try {
       const { data } = await axios.post(
-        "http://localhost:3000/application/post",
+        "https://v2-tth7.onrender.com/application/post",
         formData,
         {
           withCredentials: true,

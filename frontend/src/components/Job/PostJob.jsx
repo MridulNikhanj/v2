@@ -32,7 +32,7 @@ const PostJob = () => {
     }
     await axios
       .post(
-        "http://localhost:3000/job/post",
+        "https://v2-tth7.onrender.com/job/post",
         fixedSalary.length >= 4
           ? {
             title,

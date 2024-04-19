@@ -12,7 +12,7 @@ const JobDetails = () => {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:3000/job/${id}`, {
+      .get(`https://v2-tth7.onrender.com/job/${id}`, {
         withCredentials: true,
       })
       .then((res) => {
